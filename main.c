@@ -5,6 +5,6 @@ int main(void){
     float potencia = 12.5863;
     float division = (float)puertos/canal;
     printf("Número puertos: %d y Número de canales: %d\n", puertos, canal);
-    printf("Division: %f", division);
+    printf("Division: %f\n", division);
     return 0;
 }
