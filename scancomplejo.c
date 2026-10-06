@@ -1,4 +1,5 @@
 #include <stdio.h>
+//esto es un comentario
 int main(void) {
 float potencia_w, horas, energia_wh;
 printf("Potencia (W): ");
