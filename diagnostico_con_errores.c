@@ -5,6 +5,7 @@ int main(void) {
     float tension;
     // VARIABLE PASO 5: Contador para acumular las comprobaciones de tension
     int contador_tensiones = 0; 
+    int salida = 1; // Variable para controlar la salida del bucle  
 
     do {
         printf("\n1. Comprobar tension\n");
@@ -45,7 +46,7 @@ int main(void) {
         }
         
     // CORRECCIÓN 3 (Sintaxis): Se añade ';' al final de la línea 5 original y se corrige el operador '!='
-    } while (opcion != 2); 
+    } while (opcion != 2&& salida == 0); //Evita que el bucle se repita mientras no se elija salir y salida sea 0
 
     return 0;
 }
